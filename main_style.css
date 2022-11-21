@@ -1,0 +1,46 @@
+
+        input[type=text],select,textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 10px;
+        resize: vertical;
+        }
+        input[type=submit]{
+        background-color: lightpink;
+        color: black;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .navbar ul {
+            list-style: none;
+            background:lightpink;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        .navbar li {
+            display: inline-block;
+        }
+        .navbar a{
+            text-decoration: none;
+            color:black;
+            width: 100px;
+            display: block;
+            padding: 20px 10px;
+            font-size: 17px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .navbar a:hover{
+            background: white;
+        }
